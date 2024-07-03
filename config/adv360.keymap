@@ -80,11 +80,11 @@
 
         layer_league {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &tog 1                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &tog 4                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans   &kp Q   &kp W   &kp E   &kp R            &trans     &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans   &kp D   &kp F                               &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                     &none  &kp SPACE  &tog 0                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                  &tog 1                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                  &tog 4                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans   &kp Q   &kp W   &kp E   &kp R                  &trans     &trans     &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans   &kp A  &trans   &kp D   &kp F                                         &kp B                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &kp LEFT_ALT  &kp SPACE  &kp LCTRL                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
